@@ -1,0 +1,67 @@
+[
+ [
+  "A continuación explico brevemente el funcionamiento del sistema para ConstruSalud.",
+  " El arquitecto solicita, Gerencia aprueba, bodega despacha o compras cotiza, la obra recibe, y Telegram avisa en cada paso.",
+  " Todo queda ordenado por proyecto."
+ ],
+ [
+  "Cada persona entra con su correo y ve solo lo que le corresponde.",
+  " Gerencia aprueba, los arquitectos solicitan y reciben, el contador paga, bodega despacha, y la obra reporta incidentes."
+ ],
+ [
+  "El sistema contará con permisos y restricciones en roles previamente definidos por orden de gerencia.",
+  "Gerencia es superusuario: tiene todos los privilegios.",
+  "El técnico ve inventario, solicita, despacha, recibe, hace chequeos de seguridad y reporta incidentes, pero no aprueba ni ve montos.",
+  "Arquitectos e ingenieros solicitan, reciben en obra, hacen chequeos de seguridad y reportan incidentes."
+ ],
+ [
+  "Así se organiza la información.",
+  " Todo cuelga de un proyecto.",
+  " Cada solicitud tiene un código único, y cada línea tiene su subcódigo.",
+  " Cada tipo va a su propia hoja: bodega descuenta el stock, la compra se carga al gasto del proyecto, y el traslado queda registrado con su transporte.",
+  " Todo termina en la Torre de control y en los reportes."
+ ],
+ [
+  "Esto pasa al mismo tiempo.",
+  " Cuando el arquitecto envía la solicitud, Gerencia recibe el aviso al instante.",
+  " Cuando Gerencia aprueba, avisan a bodega y al arquitecto.",
+  " Cada despacho, cada recepción en obra y cada pago llega por Telegram en el momento en que ocurre.",
+  " Y el sistema también avisa solo cuando una caja se queda sin saldo, o cuando una obra deja de registrar su avance."
+ ],
+ [
+  "En la Torre de Gerencia hay una sola bandeja de aprobación, con prioridad fija o personalizada, según el requerimiento y las preferencias de Gerencia.",
+  " Se aprueba, rechaza o modifica cada línea, y la solicitud desaparece al instante de las demás Torres.",
+  " Si hay un error, se deshace con bitácora.",
+  " Compras compara tres cotizaciones, Gerencia elige, y el contador paga con soporte."
+ ],
+ [
+  "Proyectos es el centro del sistema.",
+  " Aquí se manejan varias obras a la vez, cada una con su avance, su presupuesto y su semáforo.",
+  " Cada incidente queda registrado con su costo, y Gerencia ve de un vistazo cuál obra necesita atención."
+ ],
+ [
+  "Dentro de cada proyecto, cada vez que el arquitecto o el ingeniero sube un avance, queda registrado con su fecha, su porcentaje y su semana, y el aviso llega por Telegram al instante.",
+  " Así cada obra tiene su historial completo."
+ ],
+ [
+  "Gerencia ve el presupuesto contra el gasto real, rubro por rubro, y el total contra el monto del contrato.",
+  " Cuando un rubro se pasa, el sistema avisa.",
+  " Y cada arquitecto maneja su caja por proyecto con la factura adjunta, mientras Gerencia ve cuánto saldo queda en cada una."
+ ],
+ [
+  "Los pequeños gastos por traslados de materiales y por imprevistos, que aparecen por falta de organización, parecen poca cosa.",
+  " Pero se van sumando, mes tras mes, y terminan afectando el presupuesto del proyecto.",
+  " Con solicitudes ordenadas y transporte registrado, se ven a tiempo y se evitan."
+ ],
+ [
+  "Esto es lo que se ahorra, con un ejemplo.",
+  " Con las solicitudes ordenadas por proyecto, sin llamadas ni mensajes sueltos, cada pedido toma muchos menos minutos.",
+  " Y al evitar compras repetidas y gastos fuera de presupuesto, también baja lo que se pierde.",
+  " Las cifras usan supuestos de ejemplo que se pueden cambiar abajo, y se reemplazan con los datos reales de la empresa."
+ ],
+ [
+  "Y esto es lo que resuelve: herramientas perdidas, solicitudes duplicadas, gastos sin trazabilidad, sobrecostos sin aviso y aprobaciones lentas.",
+  " Funciona en celular y en computador.",
+  " Lo ajustamos juntos antes de cargar los datos reales."
+ ]
+]
